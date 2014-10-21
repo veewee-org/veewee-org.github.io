@@ -1,5 +1,5 @@
 ---
-title: Veewee Virtual Machine Providers
+title: Virtual Machine Providers
 ---
 # Veewee Virtual Machine Providers
 

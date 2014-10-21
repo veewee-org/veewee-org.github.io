@@ -19,10 +19,10 @@
 
         <menu>
           <ul>
-            <li><a href="/">veewee.org</a></li>
+            <li><a href="/" {% if page.url == '/index.html' %}class='current'{% endif %}>veewee.org</a></li>
             {% assign docs = (site.pages | where: "category", "docs") %}
-            {% for page in docs %}
-              <li><a href="{{page.url}}">{{page.title}}</a></li>
+            {% for doc in docs %}
+              <li><a href="{{doc.url}}" {% if doc.url == page.url %}class='current'{% endif %}>{{doc.title}}</a></li>
             {% endfor %}
           </ul>
         </menu>
