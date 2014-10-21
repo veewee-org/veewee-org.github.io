@@ -341,6 +341,7 @@ menu {
     position:fixed;
     z-index: 100;
     width: 0px;
+    top: 2px;
 }
 
 menu ul {
