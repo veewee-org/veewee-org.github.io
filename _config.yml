@@ -1,0 +1,12 @@
+highlighter: pygments
+github: veewee-org.github.io
+exclude:
+ - Gemfile
+
+defaults:
+ -
+  scope:
+    path: "docs"
+    type: "pages"
+  values:
+    layout: "default"
