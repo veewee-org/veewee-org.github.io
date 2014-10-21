@@ -10,3 +10,4 @@ defaults:
     type: "pages"
   values:
     layout: "default"
+    category: "docs"

@@ -17,6 +17,16 @@
     <div id="container">
       <div class="inner">
 
+        <menu>
+          <ul>
+            <li><a href="/">veewee.org</a></li>
+            {% assign docs = (site.pages | where: "category", "docs") %}
+            {% for page in docs %}
+              <li><a href="{{page.url}}">{{page.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </menu>
+
         <section id="main_content">
           {{ content }}
         </section>
