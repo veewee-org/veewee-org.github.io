@@ -25,4 +25,4 @@ An example where this may be useful is if you'd like create your own barebones p
 
 ## Up Next
 
-Either check out the [guide for Vagrant](vagrant.md) or review one of the various [guides for Providers](providers.md).
+Either check out the [guide for Vagrant](/docs/vagrant) or review one of the various [guides for Providers](/docs/providers).

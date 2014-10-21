@@ -30,7 +30,7 @@ A common workflow to build a new base box with Veewee is:
 
 1. List all templates to find a single template to use
 2. Define a new box definition from a selected template
-3. [Customize](customize.md) the definition (optional)
+3. [Customize](/docs/customize) the definition (optional)
 4. Build a VM using standard ISOs, your own definition settings, and some postinstall scripts
 5. Validate the new VM
 6. Manually alter the VM by logging in with ssh (optional; but not recommended)
@@ -95,7 +95,7 @@ Can be `git://`, `git+ssh://` or `git+http://`.
 ## Modify a definition (optional)
 
 You can tweak and customize every detail of the box by modifying and extending the (sane) default settings
-that come with a template. If you want to modify these settings take a look at the [Customization](customize.md)  instructions.
+that come with a template. If you want to modify these settings take a look at the [Customization](/docs/customize)  instructions.
 
 
 ## Remove a definition
@@ -170,7 +170,7 @@ The following subcommand take care of exporting:
 
     $ bundle exec veewee <provider> export 'myubuntubox'
 
-The exported filetype depends on the provider. For more details on the providers, please have a look at the [Providers](providers.md) doc.
+The exported filetype depends on the provider. For more details on the providers, please have a look at the [Providers](/docs/providers) doc.
 
 
 ## Learn by example
@@ -196,7 +196,7 @@ Confirm that all expected files are in place:
     $ ls definitions/myubuntubox
     # => definition.rb postinstall.sh preseed.cfg ...
 
-You can now inspect and optionally [customize](customize.md) the defaults.
+You can now inspect and optionally [customize](/docs/customize) the defaults.
 
 Next it's time to build the VM image with:
 
@@ -217,4 +217,4 @@ Finally let's export the box so it can be distributed or used by Vagrant:
 
 ## Up Next
 
-[Customizing Definitions](customize.md) helps you fine tune each box definition to meet your exact needs.
+[Customizing Definitions](/docs/customize) helps you fine tune each box definition to meet your exact needs.

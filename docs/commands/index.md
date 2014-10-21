@@ -37,9 +37,9 @@ As a plugin, Veewee introduces the subcommand `basebox` on top of the `vagrant` 
     $ vagrant basebox
     Usage: vagrant basebox <command> [<args>]
 
-This allows you to use the `vagrant` command style, which may feel more natural if you're already used to working with Vagrant. Please see Veewee's [Vagrant](vagrant.md) doc for more details.
+This allows you to use the `vagrant` command style, which may feel more natural if you're already used to working with Vagrant. Please see Veewee's [Vagrant](/docs/vagrant) doc for more details.
 
 
 ## Up Next
 
-[Veewee Basics](basics.md) covers creating standard-issue boxes.
+[Veewee Basics](/docs/basics) covers creating standard-issue boxes.

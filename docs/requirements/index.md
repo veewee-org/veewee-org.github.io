@@ -8,7 +8,7 @@ Veewee has a few requirements that must be met before you're able to use Veewee.
 
 ## Virtualization Providers
 
-You'll need to install at least one of the supported VM providers (see [Providers](providers.md) doc for details). If you're not sure which provider to use, a common choice is [VirtualBox](http://www.virtualbox.org/) since it's free, portable, and supported by Vagrant.
+You'll need to install at least one of the supported VM providers (see [Providers](/docs/providers) doc for details). If you're not sure which provider to use, a common choice is [VirtualBox](http://www.virtualbox.org/) since it's free, portable, and supported by Vagrant.
 
 
 ## Development Libraries
@@ -71,4 +71,4 @@ Please see the [rbenv README]( https://github.com/sstephenson/rbenv/#installatio
 
 ## Up Next
 
-Ok, now that we have cover all the requirements, you can move on with [installing Veewee](installation.md).
+Ok, now that we have cover all the requirements, you can move on with [installing Veewee](/docs/installation).

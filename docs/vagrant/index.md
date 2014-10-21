@@ -14,7 +14,7 @@ A simple workflow to build a VirtualBox VM for Vagrant would be:
     $ bundle exec veewee vbox define 'myubuntubox' 'ubuntu-12.10-server-amd64'
     $ bundle exec veewee vbox build 'myubuntubox'
 
-For additional box building instructions, see the [Veewee Basics](basics.md) and [Definition Customization](customize.md) docs.
+For additional box building instructions, see the [Veewee Basics](/docs/basics) and [Definition Customization](/docs/customize) docs.
 
 To build a VM for another provider, such as VMware Fusion, you'd use "fusion" instead of "vbox" in the above.
 

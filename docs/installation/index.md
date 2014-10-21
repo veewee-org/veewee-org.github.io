@@ -3,7 +3,7 @@ title: Veewee Installation
 ---
 # Veewee Installation
 
-Before installing Veewee, please see the [Requirements](requirements.md) doc.
+Before installing Veewee, please see the [Requirements](/docs/requirements) doc.
 
 ## Install as a gem
 
@@ -34,7 +34,7 @@ Installing Veewee without a Ruby version manager is **NOT** recommended:
 
 #### Installing Veewee with RVM
 
-With RVM already installed (see [Requirements](requirements.md)), ensure a ruby version that's supported by Veewee is available on your machine:
+With RVM already installed (see [Requirements](/docs/requirements)), ensure a ruby version that's supported by Veewee is available on your machine:
 
     $ rvm install 1.9.2
 
@@ -56,7 +56,7 @@ Run `bundle install` to install Gemfile dependencies for our local gemset:
 
 #### Installing Veewee with rbenv
 
-With rbenv already installed (see [Requirements](requirements.md)), ensure a ruby version that's supported by Veewee is available on your machine:
+With rbenv already installed (see [Requirements](/docs/requirements)), ensure a ruby version that's supported by Veewee is available on your machine:
 
     $ rbenv install 1.9.2-p320
     $ rbenv rehash
@@ -110,4 +110,4 @@ This will change the file `.bundle/config`, which is ignored by Git per default 
 
 ## Up Next
 
-[Veewee Command Options](commands.md) highlights various approaches for executing Veewee on the command line.
+[Veewee Command Options](/docs/commands) highlights various approaches for executing Veewee on the command line.
