@@ -1,5 +1,6 @@
 ---
-title: Parallels VM Provider
+title: " - Parallels VM Provider"
+menu_order: 10
 ---
 # Parallels VM Provider
 

@@ -1,5 +1,6 @@
 ---
-title: VMware Fusion VM Provider
+title: " - VMware Fusion VM Provider"
+menu_order: 8
 ---
 ## VMware Fusion VM Provider
 

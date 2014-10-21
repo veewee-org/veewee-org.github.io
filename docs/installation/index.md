@@ -1,5 +1,6 @@
 ---
-title: Veewee Installation
+title: Installation
+menu_order: 1
 ---
 # Veewee Installation
 

@@ -1,5 +1,6 @@
 ---
 title: Customizing Definitions
+menu_order: 4
 ---
 # Customizing Definitions
 

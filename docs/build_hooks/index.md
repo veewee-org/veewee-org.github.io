@@ -1,5 +1,6 @@
 ---
 title: Build Hooks
+menu_order: 12
 ---
 # -- Build Hooks --
 

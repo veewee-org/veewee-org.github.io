@@ -1,5 +1,6 @@
 ---
-title: Veewee Command Options
+title: Command Options
+menu_order: 3
 ---
 # Veewee Command Options
 

@@ -1,5 +1,6 @@
 ---
 title: Vagrant
+menu_order: 11
 ---
 # Vagrant
 

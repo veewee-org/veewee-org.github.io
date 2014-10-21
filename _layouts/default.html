@@ -20,7 +20,7 @@
         <menu>
           <ul>
             <li><a href="/" {% if page.url == '/index.html' %}class='current'{% endif %}>veewee.org</a></li>
-            {% assign docs = (site.pages | where: "category", "docs") %}
+            {% assign docs = (site.pages | where: "category", "docs" | sort:"menu_order") %}
             {% for doc in docs %}
               {% assign short_doc = doc.url | split:"index.html" | first  %}
               <li><a href="{{short_doc}}" {% if doc.url == page.url %}class='current'{% endif %}>{{doc.title}}</a></li>

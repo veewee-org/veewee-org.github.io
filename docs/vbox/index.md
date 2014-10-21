@@ -1,5 +1,6 @@
 ---
-title: VirtualBox VM Provider
+title: " - VirtualBox VM Provider"
+menu_order: 7
 ---
 # VirtualBox VM Provider
 

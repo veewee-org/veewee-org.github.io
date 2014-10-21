@@ -340,6 +340,7 @@ footer a:hover {
 menu {
     position:fixed;
     z-index: 100;
+    width: 0px;
 }
 
 menu ul {

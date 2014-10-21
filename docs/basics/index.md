@@ -1,5 +1,6 @@
 ---
-title: Veewee Basics
+title: Basics
+menu_order: 2
 ---
 # Veewee Basics
 
