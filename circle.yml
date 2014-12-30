@@ -1,3 +1,6 @@
+machine:
+  ruby:
+    version: ruby-1.9.3
 dependencies:
   pre:
     - sudo apt-get install libonig-dev
