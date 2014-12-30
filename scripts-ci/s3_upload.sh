@@ -16,7 +16,7 @@ echo "download s3cmd $s3cmd_version"
 curl -O -L https://github.com/s3tools/s3cmd/archive/v$s3cmd_version.tar.gz
 tar xzf v$s3cmd_version.tar.gz
 
-basedir=_site
+basedir=_site/
 echo "upload js files"
 s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="application/javascript" $basedir s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.js'
 echo "uploading css"
