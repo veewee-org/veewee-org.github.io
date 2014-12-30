@@ -1,0 +1,13 @@
+dependencies:
+  pre:
+    - sudo apt-get install libonig-dev
+    # Necessary for s3cmd 1.5.0-rc1
+    - sudo apt-get install python-dateutil
+test:
+  override:
+    - bundle exec jekyll build
+deployment:
+  release:
+    branch: master
+    commands:
+      - scripts-ci/s3_upload.sh
