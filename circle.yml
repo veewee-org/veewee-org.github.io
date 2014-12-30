@@ -11,6 +11,8 @@ dependencies:
 test:
   override:
     - bundle exec jekyll build
+    - rm _site/circle.yml
+    - rm -rf _site/scripts-ci
 deployment:
   release:
     branch: master

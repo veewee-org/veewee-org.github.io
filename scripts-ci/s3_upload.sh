@@ -16,11 +16,12 @@ echo "download s3cmd $s3cmd_version"
 curl -O -L https://github.com/s3tools/s3cmd/archive/v$s3cmd_version.tar.gz
 tar xzf v$s3cmd_version.tar.gz
 
+basedir=_site
 echo "upload js files"
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="application/javascript" ./ s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.js' --exclude 'scripts-ci/*' --exclude 'vendor/*'
+s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="application/javascript" $basedir s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.js'
 echo "uploading css"
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="text/css" ./ s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.css' --exclude 'scripts-ci/*' --exclude 'vendor/*'
+s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="text/css" $basedir s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.css'
 echo "uploading html"
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="text/html" ./ s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.html' --exclude 'scripts-ci/*' --exclude 'vendor/*'
+s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="text/html" $basedir s3://$S3_BUCKET --bucket-location=EU --exclude '*' --include '*.html'
 echo "uploading all the rest"
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public -M --progress ./ s3://$S3_BUCKET --bucket-location=EU --exclude '*.css' --exclude '*.js' --exclude '*.html' --exclude 'scripts-ci/*' --exclude 'vendor/*'
+s3cmd-$s3cmd_version/s3cmd sync  --acl-public -M --progress $basedir s3://$S3_BUCKET --bucket-location=EU --exclude '*.css' --exclude '*.js' --exclude '*.html'
